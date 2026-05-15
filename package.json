@@ -1,12 +1,21 @@
 {
-  "name": "formsathi",
-  "version": "3.0.0",
-  "description": "AI Form Filling Assistant for India — powered by Google Gemini (Free API)",
-  "engines": { "node": "20.x" },
+  "name": "form-sathi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev":    "vercel dev",
-    "deploy": "vercel --prod"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": ["AI", "forms", "India", "gemini", "government", "exam", "multilingual"],
-  "license": "MIT"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
 }
