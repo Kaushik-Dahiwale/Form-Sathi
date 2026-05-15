@@ -1,0 +1,12 @@
+{
+  "name": "formsathi",
+  "version": "3.0.0",
+  "description": "AI Form Filling Assistant for India — powered by Google Gemini (Free API)",
+  "engines": { "node": "18.x" },
+  "scripts": {
+    "dev":    "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["AI", "forms", "India", "gemini", "government", "exam", "multilingual"],
+  "license": "MIT"
+}
